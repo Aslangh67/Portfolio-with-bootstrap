@@ -1,0 +1,29 @@
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
+  .pic-text {
+    position: relative;
+    bottom: 40px;
+    background-color: gray;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(99, 13, 48);
+    align-items: center;
+    opacity: .8;
+    
+  }
+
+  .my-text{
+    text-shadow: 1px 1px 8px black;
+    
+  }
+  body {
+    background-image:  url("../photos/3.png");
+    background-repeat:  repeat;
+    background-color: #cccccc;
+  }
