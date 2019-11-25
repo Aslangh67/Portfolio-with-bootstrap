@@ -32,4 +32,16 @@ img {
   .container {
     padding: 0;
   }
-
+  .name {
+    background-color: #4aaaa5;
+ 
+  }
+header {
+  height: 12vh;
+}
+.main {
+  min-height: 80vh;
+}
+footer {
+  height: 8;
+}
