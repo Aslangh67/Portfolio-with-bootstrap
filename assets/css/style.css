@@ -26,4 +26,10 @@ img {
     background-image:  url("../photos/3.png");
     background-repeat:  repeat;
     background-color: #cccccc;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   }
+  .container {
+    padding: 0;
+  }
+
