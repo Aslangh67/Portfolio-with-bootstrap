@@ -32,16 +32,30 @@ img {
   .container {
     padding: 0;
   }
-  .name {
+  .navbar>.name {
     background-color: #4aaaa5;
- 
+    color: white;
+    font-size: 30px; 
   }
 header {
-  height: 12vh;
+  height: 14vh;
 }
 .main {
   min-height: 80vh;
 }
 footer {
   height: 8;
+}
+.img1 {
+ margin: ; 
+}
+.main-head {
+  color:#4aaaa5 ;
+  font-size: 30px;
+  padding: 15px 0 15px 15px;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  color: white;
 }
