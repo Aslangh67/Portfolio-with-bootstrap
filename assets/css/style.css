@@ -23,19 +23,15 @@ img {
     
   }
   body {
-    background-image:  url("../photos/3.png");
-    background-repeat:  repeat;
-    background-color: #cccccc;
-    color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   background-color:#0a192f ;
   }
   .container {
     padding: 0;
   }
   .navbar>.name {
-    background-color: #4aaaa5;
     color: white;
     font-size: 30px; 
+    
   }
 header {
   height: 14vh;
@@ -44,18 +40,32 @@ header {
   min-height: 80vh;
 }
 footer {
-  height: 8;
+  height: 8vh;
 }
-.img1 {
- margin: ; 
-}
+
 .main-head {
-  color:#4aaaa5 ;
+  color:#ccd6f6 ;
   font-size: 30px;
   padding: 15px 0 15px 15px;
 }
 footer {
   width: 100%;
   text-align: center;
+  color: white;
+}
+.navbar{
+  z-index: 3;
+  
+}
+.navbar-color{
+  background-color: #0a192f;
+}
+.name{
+  color: #ccd6f6;
+}
+.title{
+  color: #a8b2d1;
+}
+.about-me{
   color: white;
 }
