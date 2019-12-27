@@ -9,6 +9,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/e9f2b0fc14.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Document</title>
 </head>
 
@@ -17,7 +18,7 @@
     <!-- <header class="border-bottom Nav-bar  "> -->
     <!-- <div class="col-md-3 bg-white"></div> -->
     <nav class="navbar navbar-expand-lg navbar-color">
-        <div class="p-3 name">&lt;AG&gt;</div>
+        <div class="p-3 name">&lt;AG&gt; <a href="https://www.linkedin.com/in/aslan-ghodsian-1020a366/" target="blank"> <i class="fab fa-linkedin"></i></a></div>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -27,13 +28,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-link about-click" href="#">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link portfolio-click" href="#">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link contact-click" href="#">Contact</a>
                 </li>
             </ul>
 
@@ -42,11 +43,11 @@
     <!-- <div class="col-md-3 "></div> -->
     <!-- </header> -->
     <!-- Main body -->
-    <div class="main container mt-5">
+    <div class="main container mt-5 p-3 ">
 
-        <div class="row">
+        <div class="row about">
 
-            <div class="ml-2 col-md-10  p-3 ">
+            <div class="ml-2 col-md-10  ">
 
                 <h1 class="name">
                     Aslan Ghodsian
@@ -68,15 +69,8 @@
 
             </div>
         </div>
-        <div class="row">
 
-            <div class="col-md-10  main-head">
-                Portfolio<br>
-                <hr>
-            </div>
-            <div class="col-md-2"></div>
-        </div>
-        <div class="row">
+        <div class="row portfolio">
 
             <div class="col-md-10 ">
                 <div class="row">
@@ -121,7 +115,7 @@
             </div>
             <div class="col-md-2"></div>
         </div>
-        <div class="row">
+        <div class="row portfolio">
 
             <div class="col-md-10 ">
                 <div class="row">
@@ -166,11 +160,35 @@
             </div>
             <div class="col-md-2"></div>
         </div>
+
+        <div class="row contact">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 ">
+            <form>
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+        
+                    <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      <br>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                  </form>
+                  <div class="col-md-2"></div>
+                </div>
+                </div>
     </div>
     <footer class="bg-dark  border-top border-info "> copyright &copy;</footer>
 
 
-
+<script src="./assets/JS/script.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
