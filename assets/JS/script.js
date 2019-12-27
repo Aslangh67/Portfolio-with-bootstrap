@@ -26,7 +26,7 @@ aboutClick.click(function(event){
     portfolio.hide()
     contact.hide()
 })
-$("button").click(function(event){
+$(".submit-btn").click(function(event){
     event.preventDefault()
     alert("This fuction is not operational yet, sorry for the inconvenience")
 })
